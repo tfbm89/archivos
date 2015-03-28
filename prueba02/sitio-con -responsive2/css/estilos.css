@@ -1,0 +1,65 @@
+body{
+	background: #222;
+}
+
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+section{
+	background: #1abc9c;
+	box-sizing:border-box;
+	float: left;
+	margin: 1%;
+	padding: 15px;
+	width: 48%;
+
+}
+
+/*@media(min-width: 360px) and (max-width: 768px){
+
+	body {
+		background: #16a085;
+	}
+
+	header{
+		background: #e74c3c;
+	}
+} */
+
+@media(min-width: 360px ) and (max-width: 768px) {
+	
+	body{
+		background: #16a085;
+	}
+	section{
+		width: 48%;
+	}
+}
+
+@media(min-width: 768px){
+	body{
+		background: #f1c40f;
+	}
+
+	section{
+		width: 31.33%;
+	}
+}
+
+@media(min-width: 1200px){
+	body{
+		background: #8e44ad;
+	}
+	section{
+		width: 23%;
+	}
+}
+
+/*MEDIDAS RELATIVAS
+%
+REM
+EM
+*/
