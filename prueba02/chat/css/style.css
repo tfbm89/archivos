@@ -1,0 +1,177 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+*{margin: 0;}
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #53C4FC;
+}
+
+.botonFacebook{
+
+	background-color: #3b5999;
+	display: block ;
+	max-width: 250px;
+	width: 100%;
+	height: 35px;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	background-image: url('../img/facebook.png');	
+	background-repeat: no-repeat; 
+	border-radius: 5px;
+	font-weight: bold;
+
+
+}
+
+
+.botonFacebook:hover{
+	-ms-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+	opacity: 0.7;
+	filter: alpha(opacity=7);
+}
+
+.contenedor .formulario
+{
+		background-color: ; 
+		padding: 10px;
+		height: 71px;
+}
+.contenedor .formulario input[type="text"] 
+{
+    width: 85%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    vertical-align: middle;
+    
+}
+.contenedor .formulario .btn_enviar
+{
+	background-image: url('../img/send.png');
+	width: 100%;
+	max-width: 56px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: middle;
+	background-color: #3498db;
+	border: 0;
+	border-radius: 5px;
+}
+
+.elemento-coulto{
+	display: none;
+}
+
+.listaMensajes
+{
+	overflow-y: scroll;
+	position: absolute;
+	width: 100%;
+	top: 188px;
+	bottom: 0;
+}
+.usuario 
+{
+	background-color: #3498db;
+	color: #e9e9e9;
+	position: relative;
+	height: 51px;
+	display: none;
+}
+.usuario .nombreUsuario
+{
+	vertical-align: middle;
+	display: inline-block;
+}
+.usuario .avatar 
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+}
+.usuario .salir
+{
+	background-image: url('../img/exit.png');
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	vertical-align: middle;
+}
+.item
+{
+	position: relative;
+	padding: 5px;
+}
+.item .avatar
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: top;
+}
+.item .avatar img,
+.usuario .avatar img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.item .mensaje
+{
+	display: inline-block;
+	vertical-align: top;
+}
+.item .mensaje span
+{
+	position: absolute;
+	right: 0;
+	font-size: 12px;
+	top: 0;
+}
+.usuario .nombreUsuario,
+.item .mensaje .nombreUsuario
+{
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.formulario,
+.usuario,
+.item
+{
+	border-bottom: 1px #333 solid;
+}
+
+
+
+@media screen and (max-width: 400px){
+	
+	.contenedor .formulario input[type="text"] 
+	{
+		width:  75%;
+	
+	}
+
+
+
+}
+
+
+
+
